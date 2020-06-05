@@ -1,0 +1,7 @@
+.cover__image {
+    display: block;
+    width: 100%;
+    background-image: url("../../../images/cover.jpg");
+    color: #fff;
+    text-decoration: none;    
+}

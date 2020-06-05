@@ -1,0 +1,15 @@
+@import url("__url-heading/website__url-heading.css");
+@import url("__url/website__url.css");
+
+.website {
+    align-self: flex-end;
+    width: 49.14%;
+    margin-left: auto;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .website {
+        display: none;
+    }   
+}

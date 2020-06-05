@@ -1,0 +1,15 @@
+.comments__content-title {
+    line-height: 65px;
+}
+
+@media screen and (max-width: 1023px) {
+    .comments__content-title {
+        line-height: 46px;
+    }   
+}
+
+@media screen and (max-width: 767px) {
+    .comments__content-title {
+        line-height: 35px;
+    }   
+}

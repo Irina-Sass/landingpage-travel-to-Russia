@@ -1,0 +1,19 @@
+@import url('__item/video__item.css');
+@import url('__icon/video__icon.css');
+@import url('__duration/video__duration.css');
+@import url('__item-title/video__item-title.css');
+@import url('__item-subtitle/video__item-subtitle.css');
+@import url('__item-container/video__item-container.css');
+@import url('__container/video__container.css');
+
+.video {
+    max-width: 1184px;
+    margin: 102px auto;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .video {
+        margin: 64px auto;
+    }   
+}

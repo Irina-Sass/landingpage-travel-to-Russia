@@ -1,0 +1,19 @@
+@import url('./__logo/header__logo.css');
+@import url('__lang/header__lang.css');
+@import url('../../blocks/link/link.css');
+@import url('__lang-item/header__lang-item.css');
+
+.header {
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 48px;
+    display: flex;   
+    justify-content: space-between; 
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .header  {
+        padding-top: 16px;
+    }   
+}

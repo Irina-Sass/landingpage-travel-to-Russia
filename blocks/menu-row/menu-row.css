@@ -1,0 +1,14 @@
+@import url('__item/menu-row__item.css');
+
+.menu-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-row :last-child {
+    margin-right: 0;
+}

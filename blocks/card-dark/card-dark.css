@@ -1,0 +1,24 @@
+.card-dark {
+    font-family: 'Inter', Arial, sans-serif;
+    background-size: cover;  
+    border-radius: 5px; 
+    position: relative; 
+    z-index: 0;   
+}
+
+.card-dark::before {
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.5;   
+}
+
+.card-dark:hover.card-dark::before {
+    opacity: 0.8;
+}

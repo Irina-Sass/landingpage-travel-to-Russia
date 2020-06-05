@@ -1,0 +1,9 @@
+.website__url-heading {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #AAA;
+    font-size: 12px;
+    line-height: 20px;    
+    letter-spacing: 0.2em;  
+    text-transform: uppercase; 
+}

@@ -1,0 +1,9 @@
+.menu-row__item {
+    margin-right: 18px;
+}
+
+@media screen and (max-width: 767px) {
+    .menu-row__item {
+        margin-right: 16px;
+    } 
+}

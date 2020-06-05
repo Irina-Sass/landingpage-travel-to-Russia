@@ -1,0 +1,13 @@
+@import url("_bold/intro__info_bold.css");
+
+.intro__info {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__info {
+        font-size: 12px;
+        line-height: 19px;              
+    }  
+}
